@@ -1,0 +1,80 @@
+
+body {
+    background-image: url(/images/dog1.png);
+}
+
+/* ==================
+    HOME
+===================== */
+
+a {
+    font-size: 14px;
+    margin-top: 1em;
+    color: rgb(200, 0, 0);
+    margin-bottom: -0.5em;
+}
+
+a[href="profiel.html"] {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+form {
+    padding: 0.5em;
+}
+
+form fieldset {
+    font-family: "Nexa Bold", "Arial", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+form fieldset label{
+    font-family: "Nexa Light", "Arial", sans-serif; 
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1em;
+}
+
+main form fieldset input {
+    margin: auto;
+    border-radius: 0.5em;
+    padding: 0.25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+main form fieldset input:invalid {
+    background: rgba(255, 0, 0, 0.1);
+}
+
+input.box {
+    display: inline-block;
+}
+
+fieldset button {
+    background-color: rgb(255, 0, 0);
+    font-family: "Nexa Bold", "Arial", sans-serif;
+    font-size: 18px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.3em;
+}
+
+input[type="radio"] {
+    margin-right: 0.3em;
+}
+
+label input[type="date"] {
+    width: 7.9rem;
+}

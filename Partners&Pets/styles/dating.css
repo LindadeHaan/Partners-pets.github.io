@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+/* =================
+    HEADER
+==================== */
+
+header {
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+}
+
+h1 {
+    font-family: "Nexa Bold", "Arial", sans-serif;
+    color: white;
+    padding: 1em 0 1em 0;
+    display: inline-block;
+    margin-left: 6rem;
+}
+h1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+img[src="images/profileicon.png"]{
+    margin-top: 0.7em;
+    margin-right: 0.5rem;
+    width: 2rem; 
+    float: right;
+    
+}
+
+img[src="images/hartwit.png"] {
+    width: 2.3rem;
+    margin-top: 0.7rem;
+    margin-left: 0.5rem;
+    float: left;
+    
+}
+
+img[src="images/chaticon.png"] {
+    width: 2rem;
+    margin-top: 0.7rem;
+    margin-bottom: -0.7rem;
+    margin-left: 2.5rem;
+}
+
+main {
+    background-color: rgba(210, 210, 210, 0.7);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    border-radius: 0.15rem;
+    padding: 0.5rem;
+    width: 20rem;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
